@@ -1,0 +1,24 @@
+{
+  "name": "personal_site2",
+  "version": "1.0.0",
+  "description": "My personal site I will be developing over time. My objectives for it will change over time. ",
+  "main": "index.js",
+  "scripts": {
+    "wwwStart": "node ./bin/www",
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tare Gaskin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lorem-ipsum": "^1.0.5",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
