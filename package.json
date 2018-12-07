@@ -1,24 +1,39 @@
 {
-  "name": "personal_site2",
+  "name": "",
   "version": "1.0.0",
-  "description": "My personal site I will be developing over time. My objectives for it will change over time. ",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "wwwStart": "node ./bin/www",
-    "start": "node app.js",
-    "devStart": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wwwStart": "",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "devStart": "",
+    "test": "mocha ./tests/test.js"
   },
   "author": "Tare Gaskin",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^8.0.4",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lorem-ipsum": "^1.0.5",
     "path": "^0.12.7",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.3.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
