@@ -8,7 +8,7 @@ app.set('view engine', 'html');
 
 app.use('/static', express.static( path.join(__dirname, '/public') ) );
 
-app.get('/', res.send('<p>Hello : )</p>') )
+app.get('/', ( req, res, err ) => { res.send('<p>Hello : )</p>') } )
 app.listen(8080, () => console.log('Example app listening on port 8080!'));
 
 
