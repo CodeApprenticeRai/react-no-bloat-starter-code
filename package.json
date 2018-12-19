@@ -26,6 +26,8 @@
     "nodemon": "^1.17.5",
     "supertest": "^3.3.0",
     "@babel/core": "^7.1.2",
+    "style-loader": "^0.23.1",
+    "css-loader": "^2.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "html-webpack-plugin": "^3.2.0",
